@@ -1,0 +1,98 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+#wrapper {
+    position:fixed;
+    background-image: url('3/background.jpg');
+    opacity: .12; 
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover; 
+    width: 100%;
+    height: 960px; 
+    display: flex;     
+}
+form {
+    display: flex;
+    justify-content:center;
+    margin-right: 710px;
+}
+
+
+#fieldset {
+    position: fixed;
+    background-image:url("3/logo.png"),linear-gradient(0deg, rgba(121,9,113,1) 9%, rgba(58,2,162,1) 93%, rgba(51,1,167,1) 100%, rgba(0,189,255,1) 100%);
+    display: inline-block;
+    width: 123px;
+    height: 293px;
+    padding: 50px;
+    padding-top: 70px;
+    background-size: 90px,cover;
+    background-repeat: no-repeat;
+    background-position-x: 88px,0;
+    border: 0;
+    border-radius:10px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 795px;
+    margin-top: 284px;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-bottom: 0 ;
+
+}
+label {
+    font-family:fantasy;
+    font-size: 18px;
+    color: white;
+    padding: 46px;
+}
+input {
+    color: white;
+    margin: 10px;
+    padding: 3px;
+}
+.userName {
+    margin-top: 50px;
+    margin-bottom: -9px;
+    background-color: inherit;
+    border: 1px;
+    border-bottom: 1px solid gray;
+    color: white;
+}
+.login {
+    max-width: none;
+}
+.password {
+    background-color: inherit;
+    margin-top: 0;
+    border: 1px;
+    border-bottom: 1px solid gray;
+}
+.icon-userName {
+    width: 16px;
+    padding-top: 75px;
+    position: absolute;
+}
+.icon-Password {
+    width:16px;
+    padding-top: 95px;
+    position: absolute;
+}
+
+.rememberMe {
+    font-size: 11px;
+padding-left: 0px;
+}
+.sum-bit {
+    margin-left:42px;
+    margin-top: 20px;
+    width:70px;
+    border-radius: 15px;
+    color: #000;
+    height:40px
+}
+
